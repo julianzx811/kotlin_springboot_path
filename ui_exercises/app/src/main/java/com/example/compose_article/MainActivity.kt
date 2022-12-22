@@ -169,7 +169,7 @@ fun Compose_quadrant(){
 
 @Preview(showBackground = true)
 @Composable
-fun DefaultPreview() {2
+fun DefaultPreview() {
     Compose_articleTheme {
         //data1()
         //data2()
