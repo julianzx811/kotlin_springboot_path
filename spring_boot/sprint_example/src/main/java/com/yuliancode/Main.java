@@ -17,19 +17,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Main {
   public static void main(String[] args) {
-
     SpringApplication.run(Main.class, args);
   }
 
   @GetMapping("/greet")
-  public GreetResponse greet() {
-    GreetResponse response = new GreetResponse(
-        "suh", List.of("java", "c++", "python"), new Person("yuli", 21, 400));
-    return response;
+  public yulian ElYulian(){
+    yulian theyulian = new yulian("yuli",List.of("arch","ubuntu"),new Pc("thinkpad"));
+    return theyulian;
   }
-
-  record Person(String name, int age, double savings) {}
-
-  record GreetResponse(String greet, List<String> favProgramingLanguages,
-                       Person person) {}
+  record Pc(String nombrePC){}
+  record yulian(String nombre,List<String> distribuciones,Pc compu){}
 }
