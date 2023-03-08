@@ -1,8 +1,19 @@
 package com.yuliancode;
 
-import java.util.Objects;
+import jakarta.persistence.*;
 
+import java.util.Objects;
+@Entity
 public class Customer {
+    @Id
+    @SequenceGenerator(
+            name = "customer_id",
+            sequenceName = "customer_id"
+    )
+    @GeneratedValue(
+            strategy = GenerationType.SEQUENCE,
+            generator = "customer_id"
+    )
     private Integer id;
     private Integer name;
     private Integer email;
