@@ -8,18 +8,19 @@ public class Customer {
     @Id
     @SequenceGenerator(
             name = "customer_id",
-            sequenceName = "customer_id"
+            sequenceName = "customer_id",
+            allocationSize = 1
     )
     @GeneratedValue(
             strategy = GenerationType.SEQUENCE,
             generator = "customer_id"
     )
     private Integer id;
-    private Integer name;
-    private Integer email;
+    private String name;
+    private String email;
     private Integer age;
 
-    public Customer(Integer id, Integer name, Integer email, Integer age) {
+    public Customer(Integer id, String name, String email, Integer age) {
         this.id = id;
         this.name = name;
         this.email = email;
@@ -37,19 +38,20 @@ public class Customer {
         this.id = id;
     }
 
-    public Integer getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(Integer name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    public Integer getEmail() {
+    public String getEmail() {
         return email;
     }
 
-    public void setEmail(Integer email) {
+
+    public void setEmail(String email) {
         this.email = email;
     }
 
