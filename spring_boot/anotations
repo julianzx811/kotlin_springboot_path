@@ -1,0 +1,8 @@
+@Configuration indicates that this class is a Spring
+configuration class.
+
+@ComponentScan enables component scanning for Spring beans in
+the package defined by the current class.
+
+@EnableAutoConfiguration triggers Spring Boot’s autoconfiguration
+mechanisms.
