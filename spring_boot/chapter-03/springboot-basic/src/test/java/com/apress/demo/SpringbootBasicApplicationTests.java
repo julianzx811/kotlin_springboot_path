@@ -1,13 +1,22 @@
 package com.apress.demo;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import java.lang.reflect.Method;
 
-@SpringBootTest
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
+
+@ActiveProfiles("test")
+@SpringBootTest(classes = SpringbootBasicApplication.class)
 class SpringbootBasicApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Autowired
+    private DataSourceConfig dataSourceConfig;
+    
+    @Test
+    public void primertesteo(){
+        System.out.println(dataSourceConfig);
+    }
 
 }

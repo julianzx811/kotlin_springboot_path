@@ -1,0 +1,12 @@
+2023-04-05 00:37:23,980 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21]
+HV000001: Hibernate Validator 8.0.0.Final
+2023-04-05 00:37:24,010 INFO [main] c.a.d.SpringbootBasicApplicationTests [StartupInfoLogger.java:51]
+Starting SpringbootBasicApplicationTests using Java 19.0.2 with PID 21683 (started by yulian in /home/yulian/Documents/kotlin_springboot_path/spring_boot/chapter-03/springboot-basic)
+2023-04-05 00:37:24,011 DEBUG [main] c.a.d.SpringbootBasicApplicationTests [StartupInfoLogger.java:52]
+Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-04-05 00:37:24,015 INFO [main] c.a.d.SpringbootBasicApplicationTests [SpringApplication.java:638]
+The following 1 profile is active: "test"
+2023-04-05 00:37:26,093 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:52]
+Adding welcome page: class path resource [static/index.html]
+2023-04-05 00:37:26,275 INFO [main] c.a.d.SpringbootBasicApplicationTests [StartupInfoLogger.java:57]
+Started SpringbootBasicApplicationTests in 2.653 seconds (process running for 4.054)
