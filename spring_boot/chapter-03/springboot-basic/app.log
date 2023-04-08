@@ -1,12 +1,104 @@
-2023-04-05 00:37:23,980 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21]
+2023-04-05 16:14:02,364 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21]
 HV000001: Hibernate Validator 8.0.0.Final
-2023-04-05 00:37:24,010 INFO [main] c.a.d.SpringbootBasicApplicationTests [StartupInfoLogger.java:51]
-Starting SpringbootBasicApplicationTests using Java 19.0.2 with PID 21683 (started by yulian in /home/yulian/Documents/kotlin_springboot_path/spring_boot/chapter-03/springboot-basic)
-2023-04-05 00:37:24,011 DEBUG [main] c.a.d.SpringbootBasicApplicationTests [StartupInfoLogger.java:52]
+2023-04-05 16:14:02,417 INFO [main] c.a.d.SpringbootBasicApplicationTests [StartupInfoLogger.java:51]
+Starting SpringbootBasicApplicationTests using Java 19.0.2 with PID 8154 (started by yulian in /home/yulian/Documents/kotlin_springboot_path/spring_boot/chapter-03/springboot-basic)
+2023-04-05 16:14:02,419 DEBUG [main] c.a.d.SpringbootBasicApplicationTests [StartupInfoLogger.java:52]
 Running with Spring Boot v3.0.5, Spring v6.0.7
-2023-04-05 00:37:24,015 INFO [main] c.a.d.SpringbootBasicApplicationTests [SpringApplication.java:638]
+2023-04-05 16:14:02,421 INFO [main] c.a.d.SpringbootBasicApplicationTests [SpringApplication.java:638]
 The following 1 profile is active: "test"
-2023-04-05 00:37:26,093 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:52]
+2023-04-05 16:14:04,038 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:52]
 Adding welcome page: class path resource [static/index.html]
-2023-04-05 00:37:26,275 INFO [main] c.a.d.SpringbootBasicApplicationTests [StartupInfoLogger.java:57]
-Started SpringbootBasicApplicationTests in 2.653 seconds (process running for 4.054)
+2023-04-05 16:14:04,266 INFO [main] c.a.d.SpringbootBasicApplicationTests [StartupInfoLogger.java:57]
+Started SpringbootBasicApplicationTests in 2.287 seconds (process running for 3.806)
+2023-04-07 15:43:17,781 INFO [main] c.a.d.SpringbootBasicApplicationTests [StartupInfoLogger.java:51]
+Starting SpringbootBasicApplicationTests using Java 19.0.2 with PID 3736 (started by yulian in /home/yulian/Documents/kotlin_springboot_path/spring_boot/chapter-03/springboot-basic)
+2023-04-07 15:43:17,778 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21]
+HV000001: Hibernate Validator 8.0.0.Final
+2023-04-07 15:43:17,786 DEBUG [main] c.a.d.SpringbootBasicApplicationTests [StartupInfoLogger.java:52]
+Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-04-07 15:43:17,788 INFO [main] c.a.d.SpringbootBasicApplicationTests [SpringApplication.java:638]
+The following 1 profile is active: "test"
+2023-04-07 15:43:19,413 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:52]
+Adding welcome page: class path resource [static/index.html]
+2023-04-07 15:43:19,612 INFO [main] c.a.d.SpringbootBasicApplicationTests [StartupInfoLogger.java:57]
+Started SpringbootBasicApplicationTests in 2.319 seconds (process running for 3.626)
+2023-04-07 15:43:23,242 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21]
+HV000001: Hibernate Validator 8.0.0.Final
+2023-04-07 15:43:23,277 INFO [restartedMain] c.a.d.SpringbootBasicApplication [StartupInfoLogger.java:51]
+Starting SpringbootBasicApplication using Java 19.0.2 with PID 3781 (/home/yulian/Documents/kotlin_springboot_path/spring_boot/chapter-03/springboot-basic/target/classes started by yulian in /home/yulian/Documents/kotlin_springboot_path/spring_boot/chapter-03/springboot-basic)
+2023-04-07 15:43:23,278 DEBUG [restartedMain] c.a.d.SpringbootBasicApplication [StartupInfoLogger.java:52]
+Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-04-07 15:43:23,279 INFO [restartedMain] c.a.d.SpringbootBasicApplication [SpringApplication.java:632]
+No active profile set, falling back to 1 default profile: "default"
+2023-04-07 15:43:23,339 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:250]
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-07 15:43:23,340 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:250]
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-07 15:43:24,277 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108]
+Tomcat initialized with port(s): 8080 (http)
+2023-04-07 15:43:24,286 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-07 15:43:24,287 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173]
+Starting service [Tomcat]
+2023-04-07 15:43:24,288 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173]
+Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-07 15:43:24,348 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173]
+Initializing Spring embedded WebApplicationContext
+2023-04-07 15:43:24,350 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291]
+Root WebApplicationContext: initialization completed in 1007 ms
+2023-04-07 15:43:24,569 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:52]
+Adding welcome page: class path resource [static/index.html]
+2023-04-07 15:43:24,680 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59]
+LiveReload server is running on port 35729
+2023-04-07 15:43:24,691 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+Starting ProtocolHandler ["http-nio-8080"]
+2023-04-07 15:43:24,708 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220]
+Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-07 15:43:24,720 INFO [restartedMain] c.a.d.SpringbootBasicApplication [StartupInfoLogger.java:57]
+Started SpringbootBasicApplication in 1.791 seconds (process running for 2.376)
+2023-04-07 15:43:59,054 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21]
+HV000001: Hibernate Validator 8.0.0.Final
+2023-04-07 15:43:59,064 INFO [main] c.a.d.SpringbootBasicApplicationTests [StartupInfoLogger.java:51]
+Starting SpringbootBasicApplicationTests using Java 19.0.2 with PID 3920 (started by yulian in /home/yulian/Documents/kotlin_springboot_path/spring_boot/chapter-03/springboot-basic)
+2023-04-07 15:43:59,066 DEBUG [main] c.a.d.SpringbootBasicApplicationTests [StartupInfoLogger.java:52]
+Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-04-07 15:43:59,067 INFO [main] c.a.d.SpringbootBasicApplicationTests [SpringApplication.java:638]
+The following 1 profile is active: "test"
+2023-04-07 15:44:00,676 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:52]
+Adding welcome page: class path resource [static/index.html]
+2023-04-07 15:44:00,887 INFO [main] c.a.d.SpringbootBasicApplicationTests [StartupInfoLogger.java:57]
+Started SpringbootBasicApplicationTests in 2.25 seconds (process running for 3.626)
+2023-04-07 15:44:04,433 INFO [background-preinit] o.h.v.i.u.Version [Version.java:21]
+HV000001: Hibernate Validator 8.0.0.Final
+2023-04-07 15:44:04,467 INFO [restartedMain] c.a.d.SpringbootBasicApplication [StartupInfoLogger.java:51]
+Starting SpringbootBasicApplication using Java 19.0.2 with PID 3965 (/home/yulian/Documents/kotlin_springboot_path/spring_boot/chapter-03/springboot-basic/target/classes started by yulian in /home/yulian/Documents/kotlin_springboot_path/spring_boot/chapter-03/springboot-basic)
+2023-04-07 15:44:04,468 DEBUG [restartedMain] c.a.d.SpringbootBasicApplication [StartupInfoLogger.java:52]
+Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-04-07 15:44:04,469 INFO [restartedMain] c.a.d.SpringbootBasicApplication [SpringApplication.java:632]
+No active profile set, falling back to 1 default profile: "default"
+2023-04-07 15:44:04,526 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:250]
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-07 15:44:04,527 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:250]
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-07 15:44:05,460 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108]
+Tomcat initialized with port(s): 8080 (http)
+2023-04-07 15:44:05,470 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-07 15:44:05,471 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173]
+Starting service [Tomcat]
+2023-04-07 15:44:05,472 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173]
+Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-07 15:44:05,534 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173]
+Initializing Spring embedded WebApplicationContext
+2023-04-07 15:44:05,537 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291]
+Root WebApplicationContext: initialization completed in 1007 ms
+2023-04-07 15:44:05,755 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:52]
+Adding welcome page: class path resource [static/index.html]
+2023-04-07 15:44:05,861 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59]
+LiveReload server is running on port 35729
+2023-04-07 15:44:05,872 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173]
+Starting ProtocolHandler ["http-nio-8080"]
+2023-04-07 15:44:05,889 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220]
+Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-07 15:44:05,900 INFO [restartedMain] c.a.d.SpringbootBasicApplication [StartupInfoLogger.java:57]
+Started SpringbootBasicApplication in 1.786 seconds (process running for 2.342)

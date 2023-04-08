@@ -1,5 +1,11 @@
-http://localhost:8080/ look ur springboot app here
+RUN:
+mvn clean package spring-boot:run to run the project using maven
 
+gradle bootRun to run using gradle
+
+http://localhost:8080/  check the project here
+
+NOTATIONS:
 @SpringBootApplication is equivalent to add @Configuration @EnableAutoConfiguration and 
 @ComponentScan
 

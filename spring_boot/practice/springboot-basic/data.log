@@ -1,0 +1,5 @@
+2023-04-05T16:13:07.381-05:00  INFO 7924 --- [main] c.a.d.SpringbootBasicApplicationTests    : Starting SpringbootBasicApplicationTests using Java 19.0.2 with PID 7924 (started by yulian in /home/yulian/Documents/kotlin_springboot_path/spring_boot/springboot-basic)
+2023-04-05T16:13:07.382-05:00 DEBUG 7924 --- [main] c.a.d.SpringbootBasicApplicationTests    : Running with Spring Boot v3.0.5, Spring v6.0.7
+2023-04-05T16:13:07.385-05:00  INFO 7924 --- [main] c.a.d.SpringbootBasicApplicationTests    : The following 1 profile is active: "test"
+2023-04-05T16:13:08.835-05:00  INFO 7924 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-04-05T16:13:08.998-05:00  INFO 7924 --- [main] c.a.d.SpringbootBasicApplicationTests    : Started SpringbootBasicApplicationTests in 2.114 seconds (process running for 3.232)
