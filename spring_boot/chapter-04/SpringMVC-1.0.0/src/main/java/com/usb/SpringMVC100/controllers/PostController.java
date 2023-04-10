@@ -36,9 +36,8 @@ public class PostController {
                         Errors errors) {
     if (errors.hasErrors()) {
       return "addPost";
-    } else {
-      postService.addPost(post);
-      return "redirect:/posts";
     }
+    postService.addPost(post);
+    return "redirect:/posts";
   }
 }
