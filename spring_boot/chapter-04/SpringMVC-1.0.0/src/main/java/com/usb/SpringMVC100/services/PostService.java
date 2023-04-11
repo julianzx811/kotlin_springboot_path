@@ -19,4 +19,9 @@ public class PostService {
   public Set<Post> findallpost() {
     return postRepository.findAllPosts();
   }
+
+  public boolean postExistsWithTitle(String title) {
+    return postRepository.findAllPosts().stream().anyMatch(
+        Post -> Post.getTitle().equals(title));
+  }
 }
