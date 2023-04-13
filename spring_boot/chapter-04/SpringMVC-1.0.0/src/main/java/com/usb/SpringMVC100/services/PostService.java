@@ -12,13 +12,9 @@ public class PostService {
 
   public final PostRepository postRepository;
 
-  public void addPost(Post post) {
-    postRepository.addPost(post);
-  }
+  public void addPost(Post post) { postRepository.addPost(post); }
 
-  public Set<Post> findallpost() {
-    return postRepository.findAllPosts();
-  }
+  public Set<Post> findallpost() { return postRepository.findAllPosts(); }
 
   public boolean postExistsWithTitle(String title) {
     return postRepository.findAllPosts().stream().anyMatch(

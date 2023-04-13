@@ -11,3 +11,13 @@ HTTP requests like GET, POST, PUT, DELETE can be handled by separate annotations
 @PostMapping, @PutMappping, and @DeleteMapping,
 
 views use thymeleaf attributes
+
+domain: representation of bussines entities, they also perform data validation
+and tranformation
+
+repository: component that provides a way to interact with data storage. It typically provides CRUD 
+perations on a particular domain entity or collection of entities
+
+servivces: component that contains business logic and performs operations on data. It typically 
+sits between the controller layer and the repository layer, and is responsible for processing requests,
+performing validations, and orchestrating interactions with the data storage layer.
