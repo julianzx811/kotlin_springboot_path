@@ -5,7 +5,7 @@ lang="en">
 <title>Spring Blog</title>
 </head>
 <body>
-<h1>Welcome to Spring Blog</h1>
+<h1 th:text="#{blog.title}">Welcome to Spring Blog</h1>
 <form th:object="${post}" th:action="@{/posts}" method="post">
 <div>
 <label for="title">Title:</label>

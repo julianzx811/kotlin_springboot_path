@@ -11,7 +11,7 @@ lang="en">
 <div th:text="${post.body}"></div>
 </div>
 <div>
- <<a href="/posts/add">write a new blog</a> 
+ <a th:text="#{blog.title}" href="/posts/add">write a new blog</a> 
 </div>
 </body>
 </html>
